@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    background: white;
+}
+
+.primary-logo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: #637f83;
+    margin-left: 50px;
+    font-weight: bold;
+}
