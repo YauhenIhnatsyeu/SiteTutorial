@@ -9,5 +9,20 @@
     text-decoration: none;
     color: #637f83;
     margin-left: 50px;
-    font-weight: 900;
+}
+
+.primary-navigation__item {
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.primary-navigation__link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #637f83;
+}
+
+.primary-navigation__link_state-current {
+    color: #e4551d;
 }
