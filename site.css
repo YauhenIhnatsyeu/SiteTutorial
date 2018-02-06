@@ -5,11 +5,12 @@
 
 .header__inner-container {
     display: flex;
+    justify-content: space-around;
     padding: 20px 0px;
 }
 
 .header__logo-container {
-    margin: 5px 0px 0px 19.7%;
+    //margin: 5px 0px 0px 19.7%;
 }
 
 .primary-logo {
@@ -21,8 +22,7 @@
 
 .header__navigation-container {
     display: flex;
-    width: 30%;
-    margin-left: 23.5%;
+    width: 500px;
 }
 
 .nav {
