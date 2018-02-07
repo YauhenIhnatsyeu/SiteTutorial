@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url(fonts/myriad_pro.otf);
+}
+
 .header {
     width: 100%;
     background: white;
@@ -15,7 +20,7 @@
 
 .primary-logo {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 32px;
+    font-size: 40pt;
     text-decoration: none;
     color: #637f83;
 }
@@ -42,11 +47,34 @@
 
 .nav__link {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
+    font-size: 16pt;
     text-decoration: none;
     color: #637f83;
 }
 
 .nav__link_state-current {
     color: #e4551d;
+}
+
+.main__inner-container {
+    text-align: center;
+}
+
+.banner {
+}
+
+.banner__wall-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__primary-title {
+    font-family: 'Myriad Pro';
+    font-size: 40pt;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.banner__secondary-title {
+    font-size: 16pt;
 }
