@@ -64,6 +64,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -80%);
@@ -81,6 +82,7 @@
     letter-spacing: 4px;
     text-decoration: none;
     border-bottom: 2px solid currentColor;
+    padding-top: 5%;
 }
 
 .banner__secondary-title {
@@ -88,10 +90,12 @@
     font-size: 12pt;
     color: white;
     letter-spacing: 3px;
+    padding-top: 5%;
 }
 
 .banner__circle-container {
-    width: 100%;
+    /*margin-top: 40px;
+    width: 100%;*/
 }
 
 /*.title__primary-title {
