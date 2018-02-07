@@ -9,6 +9,7 @@
     width: 100%;
     background: white;
     display: flex;
+    flex-wrap: wrap;
     /*justify-content: space-around;*/
     padding: 20px 0px;
     /*text-align: center;*/
@@ -147,4 +148,10 @@
 
 .portfolio__controls {
     display: flex;
+}
+
+.portfolio__folios {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
 }
