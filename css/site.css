@@ -3,11 +3,18 @@
     src: url(fonts/myriad_pro.otf);
 }
 
+/*Add centered_wrapper to all div except ones that need being wide*/
+
+.centered_wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .header__inner-container {
     width: 100%;
     background: white;
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     padding: 20px 0px;
     /*text-align: center;*/
 }
