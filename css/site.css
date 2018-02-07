@@ -139,3 +139,12 @@
     color: #e4551d;
     /*border: 5px, solid, black;*/
 }
+
+.portfolio__title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__controls {
+    display: flex;
+}
