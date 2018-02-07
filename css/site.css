@@ -5,11 +5,6 @@
 
 /*Add centered_wrapper to all div except ones that need being wide*/
 
-.centered_wrapper {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 .header__inner-container {
     width: 100%;
     background: white;
@@ -115,4 +110,18 @@
     font-size: 12pt;
     text-decoration: none;
     color: #637f83;
+}
+
+.featured-content__inner-container {
+    display: flex;
+}
+
+.featured-content__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-content__icon {
+    font-size: 36px;
+    color: #e4551d;
 }
