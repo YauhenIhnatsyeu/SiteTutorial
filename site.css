@@ -10,7 +10,7 @@
 }
 
 .header__logo-container {
-    //margin: 5px 0px 0px 19.7%;
+    /*margin: 5px 0px 0px 19.7%;*/
 }
 
 .primary-logo {
@@ -29,24 +29,24 @@
     width: 100%;
 }
 
-.primary-navigation__list {
+.nav__list {
     display: flex;
     margin-left: 0px;
     padding-left: 0px;
     justify-content: space-between;
 }
 
-.primary-navigation__item {
+.nav__item {
     list-style-type: none
 }
 
-.primary-navigation__link {
+.nav__link {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     text-decoration: none;
     color: #637f83;
 }
 
-.primary-navigation__link_state-current {
+.nav__link_state-current {
     color: #e4551d;
 }
