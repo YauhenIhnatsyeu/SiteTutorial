@@ -17,6 +17,7 @@
 .primary-logo, .title__primary-title {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 26pt;
+    font-weight: 900;
     text-decoration: none;
     color: #637f83;
 }
@@ -44,6 +45,7 @@
 .nav__link {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 11pt;
+    font-weight: 900;
     text-decoration: none;
     color: #637f83;
 }
@@ -71,7 +73,7 @@
 }
 
 .banner__wall {
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .banner__primary-title {
@@ -94,13 +96,18 @@
 }
 
 .banner__circle-container {
-    /*margin-top: 40px;
-    width: 100%;*/
+    margin-top: 40px;
 }
 
-/*.title__primary-title {
+.title__inner-container {
+    padding: 20px 0px;
+}
+
+.title__secondary-title {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 40pt;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 12pt;
     text-decoration: none;
     color: #637f83;
-}*/
+}
