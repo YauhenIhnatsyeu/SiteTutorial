@@ -14,10 +14,6 @@
     padding: 20px 0px;
 }
 
-.header__logo-container {
-    /*margin: 5px 0px 0px 19.7%;*/
-}
-
 .primary-logo {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 40pt;
@@ -60,21 +56,39 @@
     text-align: center;
 }
 
-.banner {
+.banner__inner-container {
+    position: relative;
 }
 
-.banner__wall-container {
+.banner__wall-container { 
     display: flex;
+    position: absolute;
     flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .banner__primary-title {
     font-family: 'Myriad Pro';
     font-size: 40pt;
     font-weight: 900;
+    color: white;
+    /*letter-spacing: 4px;*/
     text-decoration: underline;
 }
 
 .banner__secondary-title {
+    font-family: 'Lato', sans-serif;
     font-size: 16pt;
+    color: white;
+}
+
+.banner__circle-container {
+    width: 100%;
+}
+
+.icon-circle {
+    color: #e4551d;
+    font-size: 200px;
 }
