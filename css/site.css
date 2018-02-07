@@ -3,15 +3,13 @@
     src: url(fonts/myriad_pro.otf);
 }
 
-.header {
+.header__inner-container {
     width: 100%;
     background: white;
-}
-
-.header__inner-container {
     display: flex;
     justify-content: space-around;
     padding: 20px 0px;
+    /*text-align: center;*/
 }
 
 .primary-logo, .title__primary-title {
@@ -55,7 +53,7 @@
 }
 
 .main__inner-container {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .banner__inner-container {
