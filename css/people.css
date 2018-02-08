@@ -5,6 +5,7 @@
 
 .person {
     display: flex;
+    width: 400px;
 }
 
 .person__info-container {
