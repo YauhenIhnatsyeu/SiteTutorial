@@ -1,4 +1,7 @@
 .footer__inner-container {
-    color: white;
     background: #637f83;
+}
+
+.footer__text {
+    color: white;
 }

@@ -34,10 +34,12 @@
 }
 
 .mail__title {
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 12pt;
-    font-weight: 900;
-    text-decoration: none;
+    color: white;
+}
+
+.mail__description, .twitter__description, .twitter__link {
+    color: white;
 }
 
 .mail__form {
@@ -50,6 +52,10 @@
     border-style: solid;
     border-color: #597275;
     border-radius: 5px;
+}
+
+.mail__input-submit {
+    width: 85px;
 }
 
 .twitter__link {
@@ -79,7 +85,20 @@
     display: flex;
 }
 
+.follow__icon {
+    color: #e4551d;
+    font-size: 32pt;
+}
+
+.follow__title {
+    font-size: 12pt;
+}
+
 .follow__description-container {
     display: flex;
     flex-direction: column;
+}
+
+.follow__description {
+    color: #bfced0;
 }
