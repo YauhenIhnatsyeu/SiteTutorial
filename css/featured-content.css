@@ -1,0 +1,89 @@
+.featured-content__inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-content__title-container, .portfolio__title-container, .social__title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 35px 0px;
+}
+
+.featured-content__description, .portfolio__description, .social__description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16pt;
+    text-decoration: none;
+    color: #637f83;
+}
+
+.featured-content__items-container {
+    display: flex;
+    background: #f6f6f6;
+}
+
+.featured-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /*border: 5px, solid, #d5d5d5;*/
+    border-right-color: #d5d5d5;
+    border-right-width: 3px;
+    border-right-style: solid;
+    padding: 60px 45px;
+}
+
+.featured-content-item_position-right {
+    border-right-color: #f6f6f6;
+}
+
+.featured-content-item__icon {
+    font-size: 68pt;
+    color: #e4551d;
+    /*border: 5px, solid, black;*/
+}
+
+.featured-content-item__title, .person__title, .mail__title, .follow__title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16pt;
+    font-weight: 900;
+    text-decoration: none;
+    color: #637f83;
+}
+
+.featured-content-item__title {
+    margin: 25px 0px;
+}
+
+.featured-content-item__description, .person__description, .person__link,
+    .mail__description, .twitter__description, .follow__description, .footer__text  {
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #959494;
+}
+
+.featured-content-item__description {
+    text-align: center;
+}
+
+.featured-content-item__button, .mail__input-submit {
+    background: #637f83;
+    color: white;
+    border-style: solid;
+    border-color: #637f83;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 65px;
+    height: 30px;
+}
+
+.featured-content-item__button {
+    margin-top: 25px;
+}

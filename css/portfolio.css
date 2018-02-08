@@ -1,0 +1,45 @@
+.portfolio__inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__title-container {
+    padding-bottom: 0px;
+}
+
+.portfolio__controls {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 40px 0px;
+}
+
+.portfolio__hr {
+    border-color: #d9d9d9;
+    width: 200px;
+}
+
+.portfolio__icon {
+    color: #e4551d;
+    font-size: 22pt;
+}
+
+.portfolio__folios {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.portfolio__button {
+    background: #e4551d;
+    color: white;
+    border-style: solid;
+    border-color: #e4551d;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 35px;
+    width: 130px;
+    margin-top: 35px;
+}
