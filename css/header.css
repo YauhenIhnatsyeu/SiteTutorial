@@ -8,7 +8,7 @@
     /*text-align: center;*/
 }
 
-.primary-logo, .featured-content__title, .portfolio__title {
+.primary-logo, .featured-content__title, .portfolio__title, .social__title {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 26pt;
     font-weight: 900;

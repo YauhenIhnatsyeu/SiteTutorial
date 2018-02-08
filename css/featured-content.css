@@ -14,7 +14,7 @@
     display: flex;
 }
 
-.featured-content__description, .portfolio__description {
+.featured-content__description, .portfolio__description, .social__description {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
