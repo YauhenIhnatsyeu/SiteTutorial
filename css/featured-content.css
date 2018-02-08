@@ -1,17 +1,18 @@
 .featured-content__inner-container {
     display: flex;
     flex-direction: column;
-    background: #f6f6f6;
 }
 
 .featured-content__title-container {
     display: flex;
     flex-direction: column;
+    background: white;
     padding: 20px 0px;
 }
 
 .featured-content__items-container {
     display: flex;
+    background: #f6f6f6;
 }
 
 .featured-content__description, .portfolio__description, .social__description {
