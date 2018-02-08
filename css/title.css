@@ -1,0 +1,12 @@
+.title__inner-container {
+    padding: 20px 0px;
+}
+
+.title__secondary-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 12pt;
+    text-decoration: none;
+    color: #637f83;
+}

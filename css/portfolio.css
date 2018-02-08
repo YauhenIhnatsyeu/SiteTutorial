@@ -1,0 +1,14 @@
+.portfolio__title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__controls {
+    display: flex;
+}
+
+.portfolio__folios {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}

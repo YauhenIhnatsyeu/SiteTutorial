@@ -1,0 +1,26 @@
+.featured-content__inner-container {
+    display: flex;
+    background: #f6f6f6;
+}
+
+.featured-content__item {
+    display: flex;
+    flex-direction: column;
+    
+    /*border: 5px, solid, #d5d5d5;*/
+    border-right-color: #d5d5d5;
+    border-right-width: 3px;
+    border-right-style: solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+.featured-content__item_position-right {
+    border-right-color: #f6f6f6;
+}
+
+.featured-content__icon {
+    font-size: 36px;
+    color: #e4551d;
+    /*border: 5px, solid, black;*/
+}
