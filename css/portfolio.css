@@ -12,3 +12,16 @@
     width: 75%;
     justify-content: space-around;
 }
+
+.portfolio__button {
+    background: #e4551d;
+    color: white;
+    border-style: solid;
+    border-color: #e4551d;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 30px;
+    width: 130px;
+}

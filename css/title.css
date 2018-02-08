@@ -2,7 +2,7 @@
     padding: 20px 0px;
 }
 
-.title__description {
+.title__description, .portfolio__description {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
