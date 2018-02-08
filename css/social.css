@@ -1,0 +1,39 @@
+.social__inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.social__title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.social__subscribe-container {
+    display: flex;
+}
+
+.mail__header {
+    display: flex;
+}
+
+.mail__title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail__form {
+    display: flex;
+}
+
+.follow {
+    display: flex;
+}
+
+.follow__network-container {
+    display: flex;
+}
+
+.follow__description-container {
+    display: flex;
+    flex-direction: column;
+}
