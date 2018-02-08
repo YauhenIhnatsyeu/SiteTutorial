@@ -1,5 +1,7 @@
 .footer__inner-container {
     background: #637f83;
+    text-align: center;
+    padding: 30px;
 }
 
 .footer__text {
