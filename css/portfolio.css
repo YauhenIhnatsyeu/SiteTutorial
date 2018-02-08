@@ -4,9 +4,14 @@
     align-items: center;
 }
 
+.portfolio__title-container {
+    padding-bottom: 0px;
+}
+
 .portfolio__controls {
     display: flex;
     align-items: center;
+    padding: 20px 0px 40px 0px;
 }
 
 .portfolio__hr {
