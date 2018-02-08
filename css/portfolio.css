@@ -1,6 +1,7 @@
-.portfolio__title-container {
+.portfolio__inner-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .portfolio__controls {
@@ -9,7 +10,7 @@
 
 .portfolio__folios {
     display: flex;
-    width: 75%;
+    width: 60%;
     justify-content: space-around;
 }
 
@@ -24,4 +25,5 @@
     font-weight: bold;
     height: 35px;
     width: 130px;
+    margin-top: 35px;
 }

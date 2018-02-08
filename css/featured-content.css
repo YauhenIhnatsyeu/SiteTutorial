@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.featured-content__title-container {
+.featured-content__title-container, .portfolio__title-container {
     display: flex;
     flex-direction: column;
     align-items: center;

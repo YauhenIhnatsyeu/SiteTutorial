@@ -1,3 +1,7 @@
+.people {
+    margin-top: 35px;
+}
+
 .people__inner-container {
     display: flex;
     flex-wrap: wrap;
@@ -5,7 +9,7 @@
 
 .person {
     display: flex;
-    width: 400px;
+    width: 500px;
 }
 
 .person__info-container {
