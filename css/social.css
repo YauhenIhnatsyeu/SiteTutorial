@@ -11,6 +11,7 @@
     flex-direction: column;
     background: #637f83;
     padding-bottom: 25px;
+    width: 100%;
 }
 
 .social__title, .social__description {
@@ -101,9 +102,13 @@
     color: white;
 }
 
+.social__follow-container {
+    background: white;
+    width: 100%;
+}
+
 .follow {
     display: flex;
-    background: white;
     padding: 30px;
 }
 
