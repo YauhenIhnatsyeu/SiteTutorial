@@ -12,6 +12,7 @@
     transform: translate(-50%, -80%);
     align-items: center;
     text-align: center;
+    line-height: 1.6;
 }
 
 .banner__wall {
@@ -24,9 +25,8 @@
     font-weight: bold;
     color: white;
     letter-spacing: 4px;
-    text-decoration: none;
-    border-bottom: 2px solid currentColor;
-    padding-top: 5%;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .banner__description {
