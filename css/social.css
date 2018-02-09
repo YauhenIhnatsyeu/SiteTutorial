@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*color: white;*/
     background: #637f83;
 }
 
@@ -27,11 +26,20 @@
 .social__subscribe-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    /* align-items: stretch; */
+    margin: 25px 0px 60px 0px;
+}
+
+.social__mail-container {
+    height: 100px;
 }
 
 .mail {
     width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
 }
 
 .mail__header {
@@ -60,7 +68,7 @@
 
 .mail__form {
     display: flex;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 .mail__input-text, .mail__input-submit {
@@ -77,6 +85,10 @@
     margin-left: 10px;
 }
 
+.social__twitter-container {
+    height: 100px;
+}
+
 .twitter {
     display: flex;
     background: #597275;
@@ -86,7 +98,7 @@
 }
 
 .twitter__icon {
-    font-size: 66pt;
+    font-size: 40pt;
     color: white;
 }
 
@@ -96,6 +108,7 @@
 
 .twitter__description {
     color: #b5c7c9;
+    line-height: 1.6;
 }
 
 .twitter__link {
