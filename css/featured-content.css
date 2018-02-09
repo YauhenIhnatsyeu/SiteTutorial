@@ -1,6 +1,7 @@
 .featured-content__inner-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .featured-content__title-container, .portfolio__title-container, .social__title-container {
@@ -21,8 +22,12 @@
 }
 
 .featured-content__items-container {
-    display: flex;
     background: #f6f6f6;
+    width: 100%;
+}
+
+.featured-content-items {
+    display: flex;
 }
 
 .featured-content-item {

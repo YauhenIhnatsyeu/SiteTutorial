@@ -4,19 +4,22 @@
 
 .people__inner-container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 
-.people__group-by-2 {
+/* .people__group-by-2 {
     display: flex;
     margin-bottom: 20px;
-}
+} */
 
 .person {
     display: flex;
     align-items: flex-start;
-    width: 500px;
+    width: 550px;
+    margin-bottom: 30px;
 }
 
 .person_position-right {

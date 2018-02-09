@@ -11,23 +11,35 @@
 .portfolio__controls {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 20px 0px 40px 0px;
+    width: 103.5%;
 }
 
 .portfolio__hr {
     border-color: #d9d9d9;
-    width: 200px;
+    padding: 0px;
+    width: 550px;
+    border-style: solid;
 }
 
-.portfolio__icon {
+.portfolio__icon-left, .portfolio__icon-right {
     color: #e4551d;
-    font-size: 22pt;
+    font-size: 18pt;
+}
+
+.portfolio__icon-left {
+    margin-right: 5px;
+}
+
+.portfolio__icon-right {
+    margin-left: 5px;
 }
 
 .portfolio__folios {
     display: flex;
-    width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .portfolio__button {
