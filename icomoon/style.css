@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?97d6tj');
-  src:  url('fonts/icomoon.eot?97d6tj#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?97d6tj') format('truetype'),
-    url('fonts/icomoon.woff?97d6tj') format('woff'),
-    url('fonts/icomoon.svg?97d6tj#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?5fhtua');
+  src:  url('fonts/icomoon.eot?5fhtua#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5fhtua') format('truetype'),
+    url('fonts/icomoon.woff?5fhtua') format('woff'),
+    url('fonts/icomoon.svg?5fhtua#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -62,4 +62,7 @@
 }
 .icon-desktop:before {
   content: "\f108";
+}
+.icon-long-arrow-down:before {
+  content: "\f175";
 }
