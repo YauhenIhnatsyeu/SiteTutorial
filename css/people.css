@@ -1,5 +1,5 @@
 .people {
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .people__inner-container {
@@ -28,7 +28,10 @@
 
 .person__description-container {
     padding-top: 10px;
-    line-height: 1.75;
+}
+
+.person__description {
+    line-height: 1.9;
 }
 
 .person__link {
