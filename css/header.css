@@ -1,16 +1,14 @@
 .header__inner-container {
-    width: 100%;
     background: white;
     display: flex;
-    flex-wrap: wrap;
-    /*justify-content: space-around;*/
-    padding: 20px 0px;
-    /*text-align: center;*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0px;
 }
 
 .primary-logo, .featured-content__title, .portfolio__title, .social__title {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 26pt;
+    font-size: 24pt;
     font-weight: 900;
     text-decoration: none;
     color: #637f83;
@@ -18,7 +16,8 @@
 
 .header__navigation-container {
     display: flex;
-    width: 700px;
+    width: 600px;
+    letter-spacing: 1px;
 }
 
 .nav {
