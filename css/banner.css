@@ -30,5 +30,21 @@
 }
 
 .banner__circle {
+    position: relative;
     margin-top: 35px;
+    background: #e4551d;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.banner__icon {
+    position: absolute;
+    color: white;
+    font-size: 24pt;
+    margin-top: 10px;
+    margin-right: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
 }
