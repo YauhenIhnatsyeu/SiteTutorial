@@ -4,15 +4,16 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    padding: 120px 0px;
+    padding-top: 110px;
     background: url('../images/wall.png');
     background-position-x: center;
-    line-height: 1.6;
+    line-height: 1.5;
+    height: 415px;
 }
 
 .banner__title {
     font-family: 'PT Sans', sans-serif;
-    font-size: 32pt;
+    font-size: 29pt;
     font-weight: bold;
     color: white;
     letter-spacing: 4px;
@@ -25,7 +26,7 @@
     font-size: 12pt;
     color: white;
     letter-spacing: 3px;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .banner__circle {

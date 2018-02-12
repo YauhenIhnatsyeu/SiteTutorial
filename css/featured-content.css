@@ -9,16 +9,16 @@
     flex-direction: column;
     align-items: center;
     background: white;
-    padding: 35px 0px;
+    padding: 38px 0px;
 }
 
 .featured-content__description, .portfolio__description, .social__description {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-size: 16pt;
+    font-weight: 300;
+    font-size: 18pt;
     text-decoration: none;
     color: #637f83;
+    margin-top: 3px;
 }
 
 .featured-content__items-container {
@@ -34,11 +34,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    /*border: 5px, solid, #d5d5d5;*/
-    border-right-color: #d5d5d5;
-    border-right-width: 3px;
-    border-right-style: solid;
+    border-right: 1px solid #d5d5d5;
     padding: 60px 45px;
 }
 
@@ -47,9 +43,8 @@
 }
 
 .featured-content-item__icon {
-    font-size: 68pt;
+    font-size: 50pt;
     color: #e4551d;
-    /*border: 5px, solid, black;*/
 }
 
 .featured-content-item__title, .person__title, .mail__title, .follow__title {
@@ -70,6 +65,8 @@
     font-size: 10pt;
     text-decoration: none;
     color: #959494;
+    line-height: 1.6;
+    font-weight: 400;
 }
 
 .featured-content-item__description {
