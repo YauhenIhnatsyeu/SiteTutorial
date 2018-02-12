@@ -11,18 +11,13 @@
     flex-direction: column;
     background: #637f83;
     padding: 0px;
-    margin: 45px 0px 35px 0px;
+    padding: 45px 0px 35px 0px; 
+    border-bottom: 1px solid #597275;
     width: 100%;
 }
 
 .social__title, .social__description {
     color: white;
-}
-
-.social__hr {
-    border-color: #597275;
-    border-style: solid;
-    width: 100%;
 }
 
 .social__subscribe-container {
