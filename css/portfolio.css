@@ -8,32 +8,35 @@
     padding: 50px 0px 0px 0px;
 }
 
-.portfolio__controls {
-    width: 103.5%;
-}
-
-.portfolio-controls {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0px 40px 0px;
+.portfolio__controls-container {
     width: 100%;
 }
 
-.portfolio-controls::before {
+.portfolio__controls {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 40px 0px;
+    position: relative;
+}
+
+.portfolio__controls::before {
     content: '';
+    width: 100%;
+    border-top: 1px solid #d9d9d9;
+    position: absolute;
+    top: 50%;
 }
 
-.portfolio-controls__hr {
-    padding: 0px;
-    width: 520px;
-    border: 1px solid #d9d9d9;
+.portfolio__controls-wrapper {
+    background: white;
+    padding: 0px 15px;
+    z-index: 1;
 }
 
-.portfolio-controls__icon {
+.portfolio__controls-icon {
     color: #e4551d;
-    font-size: 18pt;
-    margin: 0px 5px;
+    font-size: 16pt;
+    margin: 0px 3px;
 }
 
 .portfolio__folios {
