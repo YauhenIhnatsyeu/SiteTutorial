@@ -8,7 +8,7 @@
     "csscomb": "^4.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "csscomb": "csscomb css/"
   },
   "repository": {
     "type": "git",

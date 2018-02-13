@@ -1,30 +1,38 @@
 .social__inner-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background: #637f83;
+
     margin-top: 35px;
+
+    background: #637f83;
+
+    align-items: center;
 }
 
 .social__title-container {
     display: flex;
     flex-direction: column;
-    background: #637f83;
-    padding: 0px;
-    padding: 45px 0px 35px 0px; 
-    border-bottom: 1px solid #597275;
+
     width: 100%;
+    padding: 0;
+    padding: 45px 0 35px 0;
+
+    border-bottom: 1px solid #597275;
+    background: #637f83;
 }
 
-.social__title, .social__description {
+.social__title,
+.social__description {
     color: white;
 }
 
 .social__subscribe-container {
     display: flex;
-    justify-content: space-between;
-    margin: 35px 0px 50px 0px;
+
     height: 105px;
+    margin: 35px 0 50px 0;
+
+    justify-content: space-between;
 }
 
 .social__mail-container {
@@ -32,11 +40,13 @@
 }
 
 .mail {
-    width: 570px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+    width: 570px;
     height: 100%;
+
+    justify-content: space-between;
 }
 
 .mail__header {
@@ -46,22 +56,28 @@
 .mail__info-container {
     display: flex;
     flex-direction: column;
-    margin: 3px 0px 0px 20px;
+
+    margin: 3px 0 0 20px;
 }
 
 .mail__icon {
-    font-size: 30pt;
     color: white;
+
+    font-size: 30pt;
 }
 
 .mail__title {
-    font-size: 12pt;
     letter-spacing: 1px;
-    font-weight: 700;
+
     color: white;
+
+    font-size: 12pt;
+    font-weight: 700;
 }
 
-.mail__description, .twitter__description, .twitter__link {
+.mail__description,
+.twitter__description,
+.twitter__link {
     color: white;
 }
 
@@ -71,40 +87,46 @@
 
 .mail__form {
     display: flex;
+
     height: 38px;
 }
 
-.mail__input-text, .mail__input-submit {
+.mail__input-text,
+.mail__input-submit {
+    width: 475px;
+
     color: white;
-    background: #597275;
     border-style: solid;
     border-color: #597275;
     border-radius: 5px;
-    width: 475px;
+    background: #597275;
 }
 
 .mail__input-submit {
     width: 85px;
-    margin-left: 10px;
     height: 100%;
+    margin-left: 10px;
 }
 
 .social__twitter-container {
-    background: #597275;
-    border-radius: 5px;
-    padding: 20px 25px 0px 30px;
     width: 570px;
     margin-left: 30px;
+    padding: 20px 25px 0 30px;
+
+    border-radius: 5px;
+    background: #597275;
 }
 
 .twitter {
     display: flex;
+
     height: auto;
 }
 
 .twitter__icon {
-    font-size: 44pt;
     color: white;
+
+    font-size: 44pt;
 }
 
 .twitter__description-container {
@@ -113,6 +135,7 @@
 
 .twitter__description {
     color: #b5c7c9;
+
     line-height: 1.6;
 }
 
@@ -121,33 +144,39 @@
 }
 
 .social__follow-container {
-    background: white;
     width: 100%;
+
+    background: white;
 }
 
 .follow {
     display: flex;
+
     padding: 30px;
 }
 
 .follow__network-container {
     display: flex;
-    align-items: center;
+
     margin-right: 150px;
+
+    align-items: center;
 }
 
 .follow__network-container_position_right {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .follow__icon {
     color: #e4551d;
+
     font-size: 56pt;
 }
 
 .follow__description-container {
     display: flex;
     flex-direction: column;
+
     margin-left: 20px;
 }
 
@@ -156,6 +185,7 @@
 }
 
 .follow__description {
-    color: #bfced0;
     margin-top: 5px;
+
+    color: #bfced0;
 }

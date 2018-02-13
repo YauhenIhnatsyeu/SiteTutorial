@@ -1,8 +1,10 @@
 .footer__inner-container {
-    background: #637f83;
-    text-align: center;
-    padding: 30px 0px;
     width: 100%;
+    padding: 30px 0;
+
+    text-align: center;
+
+    background: #637f83;
 }
 
 .footer__text {

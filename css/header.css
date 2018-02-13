@@ -1,21 +1,31 @@
 .header__inner-container {
-    background: white;
     display: flex;
+
+    padding: 28px 0 15px 0;
+
+    background: white;
+
     justify-content: space-between;
-    padding: 28px 0px 15px 0px;
 }
 
-.primary-logo, .featured-content__title, .portfolio__title, .social__title {
-    font-family: 'Source Sans Pro', sans-serif;
+.primary-logo,
+.featured-content__title,
+.portfolio__title,
+.social__title {
+    text-decoration: none;
+
+    color: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 24pt;
     font-weight: 900;
-    text-decoration: none;
-    color: #637f83;
 }
 
 .header__navigation-container {
     display: flex;
+
     width: 600px;
+
     letter-spacing: 1px;
 }
 
@@ -25,8 +35,10 @@
 
 .nav__list {
     display: flex;
-    margin-left: 0px;
-    padding-left: 0px;
+
+    margin-left: 0;
+    padding-left: 0;
+
     justify-content: space-between;
 }
 
@@ -37,26 +49,34 @@
 .nav__link {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
     height: 38px;
-    align-items: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 8px;
+
+    text-decoration: none;
+
+    color: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 11pt;
     font-weight: 900;
-    text-decoration: none;
-    color: #637f83;
-    margin-top: 8px;
+
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav__link_state-current {
-    color: #e4551d;
     margin-top: -16px;
+
+    color: #e4551d;
 }
 
 .nav__link_state-current::before {
     content: "\f107";
-    font-family: 'icomoon';
+
     color: #637f83;
-    font-weight: 900;
+
+    font-family: "icomoon";
     font-size: 17pt;
+    font-weight: 900;
 }

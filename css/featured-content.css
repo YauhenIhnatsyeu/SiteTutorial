@@ -1,29 +1,41 @@
 .featured-content__inner-container {
     display: flex;
     flex-direction: column;
+
     align-items: center;
 }
 
-.featured-content__title-container, .portfolio__title-container, .social__title-container {
+.featured-content__title-container,
+.portfolio__title-container,
+.social__title-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
+    padding: 38px 0 44px 0;
+
     background: white;
-    padding: 38px 0px 44px 0px;
+
+    align-items: center;
 }
 
-.featured-content__description, .portfolio__description, .social__description {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    font-size: 18pt;
-    text-decoration: none;
-    color: #637f83;
+.featured-content__description,
+.portfolio__description,
+.social__description {
     margin-top: 3px;
+
+    text-decoration: none;
+
+    color: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18pt;
+    font-weight: 300;
 }
 
 .featured-content__items-container {
-    background: #f6f6f6;
     width: 100%;
+
+    background: #f6f6f6;
 }
 
 .featured-content-items {
@@ -33,9 +45,12 @@
 .featured-content-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-right: 1px solid #d5d5d5;
+
     padding: 60px 45px 57px 45px;
+
+    border-right: 1px solid #d5d5d5;
+
+    align-items: center;
 }
 
 .featured-content-item_position-right {
@@ -43,46 +58,62 @@
 }
 
 .featured-content-item__icon {
-    font-size: 50pt;
     color: #e4551d;
+
+    font-size: 50pt;
 }
 
-.featured-content-item__title, .person__title, .mail__title, .follow__title {
-    font-family: 'Source Sans Pro', sans-serif;
+.featured-content-item__title,
+.person__title,
+.mail__title,
+.follow__title {
+    text-decoration: none;
+
+    color: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 16pt;
     font-weight: 900;
-    text-decoration: none;
-    color: #637f83;
 }
 
 .featured-content-item__title {
-    margin: 25px 0px;
+    margin: 25px 0;
 }
 
-.featured-content-item__description, .person__description, .person__link,
-    .mail__description, .twitter__description, .follow__description, .footer__text  {
-    font-family: 'Lato', sans-serif;
-    font-size: 10pt;
+.featured-content-item__description,
+.person__description,
+.person__link,
+.mail__description,
+.twitter__description,
+.follow__description,
+.footer__text {
     text-decoration: none;
+
     color: #959494;
-    line-height: 1.6;
+
+    font-family: "Lato", sans-serif;
+    font-size: 10pt;
     font-weight: 400;
+    line-height: 1.6;
 }
 
 .featured-content-item__description {
     text-align: center;
 }
 
-.featured-content-item__link, .mail__input-submit {
-    background: #637f83;
+.featured-content-item__link,
+.mail__input-submit {
+    padding: 8px 17px;
+
     color: white;
     border-style: solid;
     border-color: #637f83;
     border-radius: 5px;
-    font-family: 'Source Sans Pro', sans-serif;
+    background: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 12pt;
     font-weight: bold;
-    padding: 8px 17px;
 }
 
 .featured-content-item__link {
