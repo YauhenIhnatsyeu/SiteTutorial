@@ -2,8 +2,7 @@
     background: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 28px 0px;
+    padding: 28px 0px 15px 0px;
 }
 
 .primary-logo, .featured-content__title, .portfolio__title, .social__title {
@@ -32,22 +31,31 @@
 }
 
 .nav__item {
-    list-style-type: none
+    list-style-type: none;
 }
 
 .nav__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 38px;
+    align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 11pt;
     font-weight: 900;
     text-decoration: none;
     color: #637f83;
+    margin-top: 8px;
 }
 
 .nav__link_state-current {
     color: #e4551d;
+    margin-top: -16px;
 }
 
 .nav__link_state-current::before {
     content: "\f107";
-    font-size: 25pt;
+    color: #637f83;
+    font-weight: 900;
+    /* font-size: 25pt; */
 }
