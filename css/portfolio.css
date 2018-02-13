@@ -48,7 +48,7 @@
     width: 100%;
 }
 
-.portfolio__button {
+.portfolio__link {
     background: #e4551d;
     color: white;
     border-style: solid;
@@ -57,7 +57,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 13pt;
     font-weight: bold;
-    height: 40px;
-    width: 150px;
+    padding: 12px 20px;
     margin-top: 40px;
+    text-decoration: none;
 }
