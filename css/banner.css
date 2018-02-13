@@ -7,8 +7,9 @@
     padding-top: 110px;
     background: url('../images/wall.png');
     background-position-x: center;
+    background-position-y: -20px;
     line-height: 1.5;
-    height: 415px;
+    height: 410px;
 }
 
 .banner__title {
