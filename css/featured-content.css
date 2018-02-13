@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     background: white;
-    padding: 38px 0px;
+    padding: 38px 0px 44px 0px;
 }
 
 .featured-content__description, .portfolio__description, .social__description {
@@ -35,7 +35,7 @@
     flex-direction: column;
     align-items: center;
     border-right: 1px solid #d5d5d5;
-    padding: 60px 45px;
+    padding: 60px 45px 57px 45px;
 }
 
 .featured-content-item_position-right {

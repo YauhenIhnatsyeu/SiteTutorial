@@ -1,5 +1,5 @@
 .people {
-    margin-top: 50px;
+    margin-top: 59px;
 }
 
 .people__inner-container {
@@ -13,7 +13,7 @@
     display: flex;
     align-items: flex-start;
     width: 550px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .person_position-right {
