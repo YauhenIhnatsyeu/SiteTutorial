@@ -87,22 +87,28 @@
 .mail__form {
     display: flex;
 
-    height: 38px;
+    height: 40px;
 }
 
 .mail__input-text,
 .mail__input-submit {
-    width: 475px;
+    width: 465px;
 
     color: white;
     border-style: solid;
     border-color: #597275;
     border-radius: 5px;
     background: #597275;
+    font-size: 14pt;
+    padding: 0;
+}
+
+.mail__input-text {
+    padding-left: 10px;
 }
 
 .mail__input-submit {
-    width: 85px;
+    width: 95px;
     height: 100%;
     margin-left: 10px;
 }
