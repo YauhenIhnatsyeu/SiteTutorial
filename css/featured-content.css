@@ -73,7 +73,7 @@
     text-align: center;
 }
 
-.featured-content-item__button, .mail__input-submit {
+.featured-content-item__link, .mail__input-submit {
     background: #637f83;
     color: white;
     border-style: solid;
@@ -82,10 +82,9 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12pt;
     font-weight: bold;
-    width: 65px;
-    height: 30px;
+    padding: 8px 17px;
 }
 
-.featured-content-item__button {
+.featured-content-item__link {
     margin-top: 25px;
 }
