@@ -1,7 +1,7 @@
 .header__inner-container {
     display: flex;
 
-    padding: 28px 0 15px 0;
+    padding: 28px 0 30px 0;
 
     background: #ffffff;
 
@@ -31,11 +31,10 @@
     display: flex;
 
     width: 580px;
-
-    margin-left: 0;
-    padding-left: 0;
+    margin-top: -15px;
 
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .nav__item {
@@ -46,9 +45,6 @@
     display: flex;
     flex-direction: column;
 
-    height: 38px;
-    margin-top: 10px;
-
     text-decoration: none;
 
     color: #637f83;
@@ -58,17 +54,16 @@
     font-weight: 900;
 
     align-items: center;
-    justify-content: space-between;
 }
 
 .nav__link_state-current {
-    margin-top: -14px;
-
     color: #e4551d;
 }
 
 .nav__link_state-current::before {
     content: "\f107";
+
+    margin-bottom: 9px;
 
     color: #637f83;
 
