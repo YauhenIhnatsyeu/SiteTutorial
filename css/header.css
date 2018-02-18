@@ -31,10 +31,6 @@
     align-items: flex-end;
 }
 
-.nav__item {
-    list-style-type: none;
-}
-
 .nav__link {
     display: flex;
     flex-direction: column;
