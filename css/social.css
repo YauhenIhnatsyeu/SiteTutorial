@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 
-    margin-top: 27px;
+    margin-top: 30px;
 
     background: #637f83;
 
@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: column;
 
-    width: 100%;
     padding: 45px 0 38px 0;
 
     border-bottom: 1px solid #597275;
@@ -28,41 +27,35 @@
 .social__subscribe-container {
     display: flex;
 
-    height: 105px;
-    margin: 35px 0 54px 0;
+    margin: 35px 0 50px 0;
 
     justify-content: space-between;
-}
-
-.social__mail-container {
-    width: 570px;
 }
 
 .mail {
     display: flex;
     flex-direction: column;
 
-    width: 570px;
-    height: 100%;
-
     justify-content: space-between;
 }
 
 .mail__header {
     display: flex;
-}
-
-.mail__info-container {
-    display: flex;
-    flex-direction: column;
-
-    margin: 3px 0 0 20px;
+    
+    padding-bottom: 25px;
 }
 
 .mail__icon {
     color: #ffffff;
 
     font-size: 30pt;
+}
+
+.mail__info-container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 5px 0 0 20px;
 }
 
 .mail__title {
@@ -92,7 +85,7 @@
 
 .mail__input-text,
 .mail__input-submit {
-    width: 465px;
+    width: 460px;
 
     color: #ffffff;
     border-style: solid;
@@ -108,14 +101,12 @@
 }
 
 .mail__input-submit {
-    width: 95px;
-    height: 100%;
+    width: 100px;
     margin-left: 10px;
 }
 
 .social__twitter-container {
-    width: 570px;
-    margin-left: 30px;
+    margin: 6px 0 0 30px;
     padding: 20px 25px 0 30px;
 
     border-radius: 5px;
@@ -124,8 +115,6 @@
 
 .twitter {
     display: flex;
-
-    height: auto;
 }
 
 .twitter__icon {
