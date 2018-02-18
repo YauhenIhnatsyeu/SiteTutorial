@@ -1,14 +1,11 @@
 .featured-content__title-container,
 .portfolio__title-container,
 .social__title-container {
-    display: flex;
-    flex-direction: column;
-
     padding: 38px 0 44px 0;
 
     background: #ffffff;
 
-    align-items: center;
+    text-align: center;
 }
 
 .featured-content__description,
