@@ -48,7 +48,7 @@
 .mail__icon {
     color: #ffffff;
 
-    font-size: 30pt;
+    font-size: 40px;
 }
 
 .mail__info-container {
@@ -63,7 +63,7 @@
 
     color: #ffffff;
 
-    font-size: 12pt;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -92,7 +92,7 @@
     border-color: #597275;
     border-radius: 5px;
     background: #597275;
-    font-size: 14pt;
+    font-size: 19;
     padding: 0;
 }
 
@@ -120,7 +120,7 @@
 .twitter__icon {
     color: #ffffff;
 
-    font-size: 48pt;
+    font-size: 64px;
 }
 
 .twitter__description-container {
@@ -164,7 +164,7 @@
 .follow__icon {
     color: #e4551d;
 
-    font-size: 56pt;
+    font-size: 75px;
 }
 
 .follow__description-container {
@@ -175,7 +175,7 @@
 }
 
 .follow__title {
-    font-size: 12pt;
+    font-size: 16px;
 }
 
 .follow__description {
