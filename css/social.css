@@ -22,7 +22,7 @@
 
 .social__title,
 .social__description {
-    color: white;
+    color: #ffffff;
 }
 
 .social__subscribe-container {
@@ -60,7 +60,7 @@
 }
 
 .mail__icon {
-    color: white;
+    color: #ffffff;
 
     font-size: 30pt;
 }
@@ -68,7 +68,7 @@
 .mail__title {
     letter-spacing: 1px;
 
-    color: white;
+    color: #ffffff;
 
     font-size: 12pt;
     font-weight: 700;
@@ -77,7 +77,7 @@
 .mail__description,
 .twitter__description,
 .twitter__link {
-    color: white;
+    color: #ffffff;
 }
 
 .mail__description {
@@ -94,7 +94,7 @@
 .mail__input-submit {
     width: 465px;
 
-    color: white;
+    color: #ffffff;
     border-style: solid;
     border-color: #597275;
     border-radius: 5px;
@@ -129,7 +129,7 @@
 }
 
 .twitter__icon {
-    color: white;
+    color: #ffffff;
 
     font-size: 48pt;
 }
@@ -145,13 +145,13 @@
 }
 
 .twitter__link {
-    color: white;
+    color: #ffffff;
 }
 
 .social__follow-container {
     width: 100%;
 
-    background: white;
+    background: #ffffff;
 
     padding: 30px 0 28px 0;
 }

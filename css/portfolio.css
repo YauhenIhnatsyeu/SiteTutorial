@@ -43,7 +43,7 @@
 
     padding: 0 15px;
 
-    background: white;
+    background: #ffffff;
 }
 
 .portfolio__controls-icon {
@@ -68,7 +68,7 @@
 
     text-decoration: none;
 
-    color: white;
+    color: #ffffff;
     border-style: solid;
     border-color: #e4551d;
     border-radius: 5px;

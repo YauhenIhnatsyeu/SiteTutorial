@@ -13,7 +13,7 @@
 
     padding: 38px 0 44px 0;
 
-    background: white;
+    background: #ffffff;
 
     align-items: center;
 }
@@ -105,7 +105,7 @@
 .mail__input-submit {
     padding: 8px 17px;
 
-    color: white;
+    color: #ffffff;
     border-style: solid;
     border-color: #637f83;
     border-radius: 5px;
