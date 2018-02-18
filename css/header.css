@@ -21,12 +21,6 @@
     font-weight: 900;
 }
 
-.header__navigation-container {
-    display: flex;
-
-    letter-spacing: 1px;
-}
-
 .nav__list {
     display: flex;
 
@@ -46,6 +40,7 @@
     flex-direction: column;
 
     text-decoration: none;
+    letter-spacing: 1px;
 
     color: #637f83;
 
