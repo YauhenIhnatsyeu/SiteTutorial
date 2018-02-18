@@ -41,8 +41,8 @@
     align-items: center;
 }
 
-.featured-content-item_position-right {
-    border-right-color: #f6f6f6;
+.featured-content-item:last-child {
+    border-right: 0;
 }
 
 .featured-content-item__icon {
