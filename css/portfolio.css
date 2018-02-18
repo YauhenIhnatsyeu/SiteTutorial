@@ -30,6 +30,7 @@
 .portfolio__controls::before {
     position: absolute;
     top: 50%;
+    left: 0;
 
     width: 100%;
 
@@ -69,8 +70,6 @@
     text-decoration: none;
 
     color: #ffffff;
-    border-style: solid;
-    border-color: #e4551d;
     border-radius: 5px;
     background: #e4551d;
 
