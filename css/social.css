@@ -147,18 +147,14 @@
 
 .follow {
     display: flex;
+
+    justify-content: space-between;
 }
 
 .follow__network-container {
     display: flex;
-
-    margin-right: 150px;
-
+    
     align-items: center;
-}
-
-.follow__network-container_position_right {
-    margin-right: 0;
 }
 
 .follow__icon {
