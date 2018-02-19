@@ -14,6 +14,10 @@
     justify-content: flex-start;
 }
 
+.banner__title-container {
+    width: 475px;
+}
+
 .banner__title {
     text-decoration: underline;
     letter-spacing: 4px;
@@ -28,10 +32,13 @@
     text-underline-position: under;
 }
 
-.banner__description {
-    margin-top: 25px;
+.banner__description-container {
+    width: 400px;
 
-    letter-spacing: 3px;
+    margin-top: 25px;
+}
+
+.banner__description {letter-spacing: 3px;
     line-height: 1.6;
     text-transform: uppercase;
 
