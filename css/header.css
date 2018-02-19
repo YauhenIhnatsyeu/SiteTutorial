@@ -36,6 +36,7 @@
     flex-direction: column;
 
     text-decoration: none;
+    text-transform: uppercase;
     letter-spacing: 1px;
 
     color: #637f83;
