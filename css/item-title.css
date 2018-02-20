@@ -1,0 +1,18 @@
+.item__title {
+    text-decoration: none;
+
+    color: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.item__title_position-social {
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 700;
+}
