@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 
-    margin-top: 30px;
+    margin-top: 27px;
 
     background: #637f83;
 
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
 
-    padding: 45px 0 38px 0;
+    padding: 45px 0 31px 0;
 
     border-bottom: 1px solid #597275;
     background: #637f83;
@@ -27,7 +27,7 @@
 .social__subscribe-container {
     display: grid;
 
-    margin: 35px 0 50px 0;
+    margin: 33px 0 50px 0;
 
     grid-template: auto / 1fr 1fr;
 }
@@ -100,7 +100,7 @@
 
 .mail__input-submit {
     margin-left: 10px;
-    padding: 7px 20px;
+    padding: 8px 20px;
 }
 
 .social__twitter-container {
