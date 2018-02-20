@@ -50,6 +50,8 @@
 .portfolio__controls-icon {
     margin: 0 3px;
 
+    text-decoration: none;
+
     color: #e4551d;
 
     font-size: 21px;

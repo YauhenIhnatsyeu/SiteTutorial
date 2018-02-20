@@ -90,6 +90,8 @@
 .mail__input-submit {
     padding: 8px 17px;
 
+    text-decoration: none;
+
     color: #ffffff;
     border-style: solid;
     border-color: #637f83;
