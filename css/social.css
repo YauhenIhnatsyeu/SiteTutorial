@@ -29,7 +29,7 @@
 
     margin: 35px 0 50px 0;
 
-    grid-template: auto / auto auto;
+    grid-template: auto / 570px 570px;
 }
 
 .mail {
@@ -97,12 +97,15 @@
 }
 
 .mail__input-text {
-    padding-left: 17px;
+    padding-left: 20px;
+
+    flex-grow: 1;
 }
 
 .mail__input-submit {
-    width: 100px;
+    width: auto;
     margin-left: 10px;
+    padding: 0 20px;
 }
 
 .social__twitter-container {
