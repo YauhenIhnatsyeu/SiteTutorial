@@ -25,11 +25,11 @@
 }
 
 .social__subscribe-container {
-    display: flex;
+    display: grid;
 
     margin: 35px 0 50px 0;
 
-    justify-content: space-between;
+    grid-template: auto / 570px 570px;
 }
 
 .mail {
@@ -41,7 +41,7 @@
 
 .mail__header {
     display: flex;
-    
+
     padding-bottom: 25px;
 }
 
@@ -79,14 +79,10 @@
 
 .mail__form {
     display: flex;
-
-    height: 40px;
 }
 
 .mail__input-text,
 .mail__input-submit {
-    width: 460px;
-
     color: #ffffff;
     border-style: solid;
     border-color: #597275;
@@ -97,12 +93,14 @@
 }
 
 .mail__input-text {
-    padding-left: 17px;
+    padding-left: 20px;
+
+    flex-grow: 1;
 }
 
 .mail__input-submit {
-    width: 100px;
     margin-left: 10px;
+    padding: 7px 20px;
 }
 
 .social__twitter-container {
@@ -153,7 +151,7 @@
 
 .follow__network-container {
     display: flex;
-    
+
     align-items: center;
 }
 
