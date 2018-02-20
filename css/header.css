@@ -21,13 +21,19 @@
     font-weight: 900;
 }
 
+.nav__item {
+    margin-right: 47px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
 .nav__list {
     display: flex;
 
-    width: 580px;
     margin-top: -15px;
 
-    justify-content: space-between;
     align-items: flex-end;
 }
 
