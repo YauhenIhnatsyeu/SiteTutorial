@@ -87,7 +87,8 @@
 }
 
 .featured-content-item__link,
-.mail__input-submit {
+.mail__input-submit,
+.mail__input-text {
     padding: 8px 17px;
 
     text-decoration: none;
