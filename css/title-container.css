@@ -1,0 +1,36 @@
+.title-container {
+    padding: 30px 0 33px 0;
+
+    text-align: center;
+}
+
+.title-container_position-social {
+    border-bottom: 1px solid #597275;
+    /* background: #637f83; */
+}
+
+.title-container__title {
+    text-decoration: none;
+
+    color: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.title-container__description {
+    text-decoration: none;
+    line-height: 1.4;
+
+    color: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.title-container__title_position-social,
+.title-container__description_position-social {
+    color: #ffffff;
+}

@@ -1,23 +1,12 @@
-.featured-content__title-container,
+/* .featured-content__title-container,
 .portfolio__title-container,
 .social__title-container {
-    padding: 30px 0 44px 0;
-
-    text-align: center;
 }
 
 .featured-content__description,
 .portfolio__description,
 .social__description {
-    text-decoration: none;
-    line-height: 1.4;
-
-    color: #637f83;
-
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-}
+} */
 
 .featured-content__items-container {
     background: #f6f6f6;
