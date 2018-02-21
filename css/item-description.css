@@ -1,0 +1,23 @@
+.item-description {
+    color: #959494;
+
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.item-description_position-people {
+    line-height: 1.9;
+}
+
+.item-description_position-mail {
+    color: #ffffff;
+}
+
+.item-description_position-twitter {
+    color: #b5c7c9;
+}
+
+.item-description_position-follow {
+    color: #b5c7c9;
+}
