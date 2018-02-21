@@ -1,0 +1,43 @@
+.mail {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.mail__header {
+    display: flex;
+
+    padding-bottom: 25px;
+}
+
+.mail__icon {
+    color: #ffffff;
+
+    font-size: 40px;
+}
+
+.mail__info-container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 5px 0 0 20px;
+}
+
+.mail__description-container {
+    margin-top: 2px;
+}
+
+.mail__form {
+    display: flex;
+}
+
+.mail__input-text {
+    padding-left: 20px;
+
+    flex-grow: 1;
+}
+
+.mail__input-submit-container {
+    margin-left: 10px;
+}

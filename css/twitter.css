@@ -1,0 +1,17 @@
+.twitter {
+    display: flex;
+}
+
+.twitter__icon {
+    color: #ffffff;
+
+    font-size: 64px;
+}
+
+.twitter__description-container {
+    margin-left: 25px;
+}
+
+.twitter__link {
+    color: #ffffff;
+}
