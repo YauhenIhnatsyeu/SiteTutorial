@@ -1,4 +1,4 @@
-.item__title {
+.item-title {
     text-decoration: none;
 
     color: #637f83;
@@ -8,11 +8,15 @@
     font-weight: 700;
 }
 
-.item__title_position-social {
+.item-title_position-mail {
     letter-spacing: 1px;
 
     color: #ffffff;
 
     font-size: 16px;
     font-weight: 700;
+}
+
+.item-title_position-follow {
+    font-size: 18px;
 }

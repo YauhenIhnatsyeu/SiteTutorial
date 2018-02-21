@@ -19,10 +19,10 @@
     background: #637f83;
 }
 
-.social__title,
+/* .social__title,
 .social__description {
     color: #ffffff;
-}
+} */
 
 .social__subscribe-container {
     display: grid;
@@ -163,9 +163,8 @@
     margin-left: 20px;
 }
 
-.follow__title {
-    font-size: 16px;
-}
+/* .follow__title {
+} */
 
 .follow__description {
     margin-top: 5px;
