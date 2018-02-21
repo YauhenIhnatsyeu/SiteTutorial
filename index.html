@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/item-title.css" />
     <link rel="stylesheet" type="text/css" href="css/item-description.css" />
     <link rel="stylesheet" type="text/css" href="css/featured-content-item.css" />
+    <link rel="stylesheet" type="text/css" href="css/button-link.css" />
 
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
 
@@ -90,7 +91,7 @@
                                     us faucibus, tortor neque egestas augue, eu vulputate magn
                                 </span>
                             </div>
-                            <a class="featured-content-item__link" href="#">More</a>
+                            <a class="button-link" href="#">More</a>
                         </div>
                         <div class="featured-content-item">
                             <span class="featured-content-item__icon icon-flask"></span>
@@ -102,7 +103,7 @@
                                     tate sem tristique cursus. Nam nulla quam, gravida info
                                 </span>
                             </div>
-                            <a class="featured-content-item__link" href="#">More</a>
+                            <a class="button-link" href="#">More</a>
                         </div>
                         <div class="featured-content-item">
                             <span class="featured-content-item__icon icon-gears"></span>
@@ -114,7 +115,7 @@
                                     sagittis vel, euismod vel, velit. Pellentesque egestas sem.
                                 </span>
                             </div>
-                            <a class="featured-content-item__link" href="#">More</a>
+                            <a class="button-link" href="#">More</a>
                         </div>
                         <div class="featured-content-item">
                             <span class="featured-content-item__icon icon-bullhorn"></span>
@@ -126,7 +127,7 @@
                                     sagittis vel, euismod vel, velit. Pellentesque egestas sem.
                                 </span>
                             </div>
-                            <a class="featured-content-item__link" href="#">More</a>
+                            <a class="button-link" href="#">More</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +153,9 @@
                     <img src="images/folios-3.png" width="270" height="170" alt="">
                     <img src="images/folios-4.png" width="270" height="170" alt="">
                 </div>
-                <a class="portfolio__link" href="#">View Portfolio</a>
+                <div class="portfolio__link-container">
+                    <a class="button-link button-link_position-portfolio" href="#">View Portfolio</a>
+                </div>
             </div>
         </div>
         <div class="people">
@@ -233,8 +236,10 @@
                                     </div>
                                 </div>
                                 <form class="mail__form">
-                                    <input class="mail__input-text" type="text" name="email">
-                                    <input class="mail__input-submit" type="submit" value="Sign up">
+                                    <input class="mail__input-text button-link button-link_position-mail" type="text" name="email">
+                                    <div class="mail__input-submit-container">
+                                        <input class="button-link button-link_position-mail" type="submit" value="Sign up">
+                                    </div>
                                 </form>
                             </div>
                         </div>

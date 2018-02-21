@@ -19,11 +19,6 @@
     background: #637f83;
 }
 
-/* .social__title,
-.social__description {
-    color: #ffffff;
-} */
-
 .social__subscribe-container {
     display: grid;
 
@@ -70,26 +65,14 @@
     display: flex;
 }
 
-.mail__input-text,
-.mail__input-submit {
-    color: #ffffff;
-    border-style: solid;
-    border-color: #597275;
-    border-radius: 5px;
-    background: #597275;
-    font-size: 19;
-    padding: 0;
-}
-
 .mail__input-text {
     padding-left: 20px;
 
     flex-grow: 1;
 }
 
-.mail__input-submit {
+.mail__input-submit-container {
     margin-left: 10px;
-    padding: 8px 20px;
 }
 
 .social__twitter-container {
@@ -150,10 +133,3 @@
 
     margin: 5px 0 0 20px;
 }
-
-/* .follow__title {
-} */
-
-/* .follow__description {
-    color: #bfced0;
-} */
