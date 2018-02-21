@@ -4,10 +4,6 @@
     text-align: center;
 }
 
-.title-container_position-social {
-    border-bottom: 1px solid #597275;
-}
-
 .title-container__title {
     text-decoration: none;
 
@@ -29,7 +25,23 @@
     font-weight: 300;
 }
 
-.title-container__title_position-social,
+.title-container_position-social {
+    border-bottom: 1px solid #597275;
+}
+
+.title-container__title_position-social {
+    color: #ffffff;
+}
+
 .title-container__description_position-social {
     color: #ffffff;
+}
+
+.title-container__title_position-mail {
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 700;
 }
