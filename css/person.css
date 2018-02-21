@@ -7,6 +7,11 @@
     align-items: flex-start;
 }
 
+.person__img {
+    width: 100px;
+    height: 100px;
+}
+
 .person__info-container {
     margin-left: 30px;
 }
