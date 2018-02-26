@@ -1,12 +1,7 @@
 .social__inner-container {
-    display: flex;
-    flex-direction: column;
-
     margin-top: 27px;
 
     background: #637f83;
-
-    align-items: center;
 }
 
 .social__title-container {
