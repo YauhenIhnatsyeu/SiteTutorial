@@ -6,18 +6,14 @@
     line-height: 1.6;
 }
 
-.item-description_position-people {
+.item-description_tall {
     line-height: 1.9;
 }
 
-.item-description_position-mail {
+.item-description_white {
     color: #ffffff;
 }
 
-.item-description_position-twitter {
-    color: #b5c7c9;
-}
-
-.item-description_position-follow {
+.item-description_gray {
     color: #b5c7c9;
 }

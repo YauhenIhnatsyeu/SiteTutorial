@@ -24,6 +24,14 @@
     margin: 5px 0 0 20px;
 }
 
+.mail__title {
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+    font-size: 16px;
+}
+
 .mail__description-container {
     margin-top: 2px;
 }

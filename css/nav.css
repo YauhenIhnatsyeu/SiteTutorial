@@ -29,11 +29,11 @@
     align-items: center;
 }
 
-.nav__link_state-current {
+.nav__link_state_current {
     color: #e4551d;
 }
 
-.nav__link_state-current::before {
+.nav__link_state_current::before {
     content: "\f107";
 
     margin-bottom: 9px;
