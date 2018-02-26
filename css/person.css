@@ -1,9 +1,6 @@
 .person {
     display: flex;
 
-    width: 570px;
-    margin-bottom: 25px;
-
     align-items: flex-start;
 }
 
