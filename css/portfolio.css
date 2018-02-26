@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 57px;
+    padding-bottom: 72px;
 
     border-bottom: 1px solid #d9d9d9;
 
@@ -10,13 +10,13 @@
 }
 
 .portfolio__title-container {
-    padding: 54px 0 0px 0;
+    margin-top: 51px;
 }
 
 .portfolio__controls-container {
     width: 100%;
 
-    margin: -20px 0 40px 0;
+    margin: 18px 0 40px 0;
 }
 
 .portfolio__folios {
@@ -33,5 +33,10 @@
 }
 
 .portfolio__link-container {
-    margin-top: 40px;
+    margin-top: 52px;
+}
+
+.portfolio__link {
+    background: #e4551d;
+    padding: 10px 25px;
 }

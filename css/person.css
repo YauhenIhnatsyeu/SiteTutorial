@@ -20,6 +20,10 @@
     padding-top: 6px;
 }
 
+.person__description {
+    line-height: 1.9;
+}
+
 .person__link {
     text-decoration: none;
 

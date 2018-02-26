@@ -36,8 +36,17 @@
     margin-top: 2px;
 }
 
+.mail__description {
+    color: #ffffff;
+}
+
 .mail__form {
     display: flex;
+}
+
+.mail__input {
+    border-color: #597275;
+    background: #597275;
 }
 
 .mail__input-text {
@@ -48,4 +57,9 @@
 
 .mail__input-submit-container {
     margin-left: 10px;
+}
+
+.mail__input-submit {
+    padding-left: 22px;
+    padding-right: 22px;
 }
