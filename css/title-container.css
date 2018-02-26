@@ -2,12 +2,20 @@
     padding: 37px 0 36px 0;
 
     text-align: center;
+
+    color: #637f83;
+}
+
+.title-container_white {
+    padding: 37px 0 36px 0;
+
+    text-align: center;
+
+    color: #ffffff;
 }
 
 .title-container__title {
     text-decoration: none;
-
-    color: #637f83;
 
     font-family: "Source Sans Pro", sans-serif;
     font-size: 32px;
@@ -18,21 +26,17 @@
     text-decoration: none;
     line-height: 1.4;
 
-    color: #637f83;
-
     font-family: "Source Sans Pro", sans-serif;
     font-size: 25px;
     font-weight: 300;
 }
 
-.title-container_position-social {
-    border-bottom: 1px solid #597275;
-}
+/* .title-container_position-social {
+} */
 
-.title-container__title_position-social {
-    color: #ffffff;
+/* .title-container__title_position-social {
 }
 
 .title-container__description_position-social {
     color: #ffffff;
-}
+} */
