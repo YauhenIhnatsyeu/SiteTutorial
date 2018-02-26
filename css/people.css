@@ -1,7 +1,5 @@
 .people__inner-container {
     display: flex;
-    
-    margin-top: 59px;
 
     align-items: center;
     flex-wrap: wrap;
