@@ -1,0 +1,35 @@
+.social__inner-container {
+    background: #637f83;
+}
+
+.social__title-container {
+    padding: 44px 0 32px 0;
+
+    color: #ffffff;
+
+    border-bottom: 1px solid #597275;
+}
+
+.social__subscribe-container {
+    display: grid;
+
+    margin: 33px 0 50px 0;
+
+    grid-template: auto / 1fr 1.05fr;
+}
+
+.social__twitter-container {
+    margin-left: 30px;
+    padding: 20px 25px 0 30px;
+
+    border-radius: 5px;
+    background: #597275;
+}
+
+.social__follow-container {
+    width: 100%;
+
+    background: #ffffff;
+
+    padding: 30px 0 28px 0;
+}

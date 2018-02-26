@@ -1,0 +1,22 @@
+.title-container {
+    text-align: center;
+
+    color: #637f83;
+}
+
+.title-container__title {
+    text-decoration: none;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.title-container__description {
+    text-decoration: none;
+    line-height: 1.4;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}

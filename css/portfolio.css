@@ -1,0 +1,42 @@
+.portfolio__inner-container {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 72px;
+
+    border-bottom: 1px solid #d9d9d9;
+
+    align-items: center;
+}
+
+.portfolio__title-container {
+    margin-top: 51px;
+}
+
+.portfolio__controls-container {
+    width: 100%;
+
+    margin: 18px 0 40px 0;
+}
+
+.portfolio__folios {
+    display: flex;
+
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.portfolio__img {
+    width: 270px;
+    height: 170px;
+}
+
+.portfolio__link-container {
+    margin-top: 52px;
+}
+
+.portfolio__link {
+    background: #e4551d;
+    padding: 10px 25px;
+}

@@ -1,0 +1,65 @@
+.mail {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.mail__header {
+    display: flex;
+
+    padding-bottom: 25px;
+}
+
+.mail__icon {
+    color: #ffffff;
+
+    font-size: 40px;
+}
+
+.mail__info-container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 5px 0 0 20px;
+}
+
+.mail__title {
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+    font-size: 16px;
+}
+
+.mail__description-container {
+    margin-top: 2px;
+}
+
+.mail__description {
+    color: #ffffff;
+}
+
+.mail__form {
+    display: flex;
+}
+
+.mail__input {
+    border-color: #597275;
+    background: #597275;
+}
+
+.mail__input-text {
+    padding-left: 20px;
+
+    flex-grow: 1;
+}
+
+.mail__input-submit-container {
+    margin-left: 10px;
+}
+
+.mail__input-submit {
+    padding-left: 22px;
+    padding-right: 22px;
+}

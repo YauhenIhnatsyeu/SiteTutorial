@@ -1,0 +1,23 @@
+{
+  "name": "sitetutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "csscomb": "^4.2.0"
+  },
+  "scripts": {
+    "csscomb": "csscomb css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YauhenIhnatsyeu/SiteTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YauhenIhnatsyeu/SiteTutorial/issues"
+  },
+  "homepage": "https://github.com/YauhenIhnatsyeu/SiteTutorial#readme"
+}

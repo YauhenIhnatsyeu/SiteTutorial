@@ -1,0 +1,29 @@
+.featured-content-item {
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px 45px 52px 45px;
+
+    border-right: 1px solid #d5d5d5;
+
+    align-items: center;
+}
+
+.featured-content-item:last-child {
+    border-right: 0;
+}
+
+.featured-content-item__icon {
+    color: #e4551d;
+
+    font-size: 67px;
+}
+
+.featured-content-item__title-container {
+    margin: 25px 0;
+}
+
+.featured-content-item__description-container {
+    margin-bottom: 25px;
+    text-align: center;
+}

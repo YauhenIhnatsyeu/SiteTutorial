@@ -1,0 +1,12 @@
+.people__inner-container {
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.people__person {
+    width: 570px;
+    margin-bottom: 25px;
+}

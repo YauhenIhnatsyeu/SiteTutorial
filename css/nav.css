@@ -1,0 +1,46 @@
+.nav__item {
+    margin-right: 47px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__list {
+    display: flex;
+
+    align-items: flex-end;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    color: #637f83;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+
+    align-items: center;
+}
+
+.nav__link_state_current {
+    color: #e4551d;
+}
+
+.nav__link_state_current::before {
+    content: "\f107";
+
+    margin-bottom: 9px;
+
+    color: #637f83;
+
+    font-family: "icomoon";
+    font-size: 15px;
+    font-weight: 600;
+}

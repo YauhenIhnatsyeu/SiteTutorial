@@ -1,0 +1,13 @@
+.header__inner-container {
+    display: flex;
+
+    padding: 13px 0 30px 0;
+
+    background: #ffffff;
+
+    justify-content: space-between;
+}
+
+.header__logo-container {
+    margin-top: 15px;
+}
