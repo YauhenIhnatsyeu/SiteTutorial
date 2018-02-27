@@ -10,6 +10,12 @@
     align-items: center;
 }
 
+@media (max-width: 1170px) {
+    .featured-content-item {
+        width: 300px;
+    }
+}
+
 .featured-content-item:last-child {
     border-right: 0;
 }
