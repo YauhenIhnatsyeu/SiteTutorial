@@ -9,3 +9,15 @@
 .featured-content__items {
     display: flex;
 }
+
+@media (max-width: 1170px) {
+    .featured-content__items {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 585px) {
+    .featured-content__items {
+        justify-content: space-around;
+    }
+}

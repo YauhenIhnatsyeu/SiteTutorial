@@ -1,3 +1,9 @@
+@media (max-height: 1170px) {
+    .nav {
+        display: none;
+    }
+}
+
 .nav__item {
     margin-right: 47px;
 }

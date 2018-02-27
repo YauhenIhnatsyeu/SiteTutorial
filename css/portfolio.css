@@ -24,14 +24,33 @@
 
     width: 100%;
 
-    flex-wrap: wrap;
-
     justify-content: space-between;
 }
 
 .portfolio__img {
     width: 270px;
     height: 170px;
+}
+
+@media (max-width: 1170px) {
+    .portfolio__folios {
+        flex-wrap: wrap;
+    }
+
+    .portfolio__img-container {
+        flex-basis: calc(50% - 91px);
+    }
+}
+
+@media (max-width: 585px) {
+    .portfolio__folios {
+        justify-content: space-around;
+    }
+    
+    .portfolio__img-container {
+        flex-basis: calc(25% + 56px);
+        border-right: 0;
+    }
 }
 
 .portfolio__link-container {
