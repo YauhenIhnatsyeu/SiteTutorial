@@ -28,6 +28,7 @@
 }
 
 .portfolio__img {
+
     width: 270px;
     height: 170px;
 }
@@ -35,18 +36,25 @@
 @media (max-width: 1170px) {
     .portfolio__folios {
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .portfolio__img-container {
         flex-basis: calc(50% - 91px);
     }
+
+    .portfolio__img {
+        display: block;
+    
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 585px) {
     .portfolio__folios {
-        justify-content: space-around;
+        
     }
-    
+
     .portfolio__img-container {
         flex-basis: calc(25% + 56px);
         border-right: 0;
