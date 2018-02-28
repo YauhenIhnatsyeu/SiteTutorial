@@ -63,3 +63,13 @@
     padding-left: 22px;
     padding-right: 22px;
 }
+
+@media screen and (max-width: 520px) {
+    .mail__form {
+        display: block;
+    }
+
+    .mail__input-text {
+        width: 100%;
+    }
+}

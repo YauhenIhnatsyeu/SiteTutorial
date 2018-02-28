@@ -26,9 +26,20 @@
     background: #597275;
 }
 
-.social__follow-container {
-    width: 100%;
+@media screen and (max-width: 1270px) {
+    .social__subscribe-container {
+        display: block;
+        width: 70%;
+        margin: 33px auto;
+    }
 
+    .social__twitter-container {
+        margin: 33px 0 55px 0;
+        padding-bottom: 20px;
+    }
+}
+
+.social__follow-container {
     background: #ffffff;
 
     padding: 30px 0 28px 0;

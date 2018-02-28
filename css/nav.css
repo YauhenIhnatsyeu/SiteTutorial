@@ -1,4 +1,4 @@
-@media (max-height: 1170px) {
+@media screen and (max-height: 1270px) {
     .nav {
         display: none;
     }

@@ -2,6 +2,12 @@
     display: flex;
 }
 
+/* @media screen and (max-width: 1270px) {
+    .twitter {
+        margin: 0;
+    }
+} */
+
 .twitter__icon {
     color: #ffffff;
 

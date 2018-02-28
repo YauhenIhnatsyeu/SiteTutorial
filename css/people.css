@@ -1,11 +1,17 @@
 .people__inner-container {
     display: flex;
-
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
 }
 
 .people__person {
     margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1270px) {
+    .people__inner-container {
+        /* justify-content: space-around; */
+        display: block;
+    }
 }
