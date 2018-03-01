@@ -13,11 +13,7 @@
 @media screen and (max-width: 1270px) {
     .featured-content__items {
         flex-wrap: wrap;
-    }
-}
 
-@media screen and (max-width: 585px) {
-    .featured-content__items {
-        justify-content: space-around;
+        justify-content: center;
     }
 }

@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1270px) {
     .featured-content-item {
-        flex-basis: calc(50% - 91px);
+        flex-basis: 33%;
     }
 
     .featured-content-item:nth-child(even) {
@@ -24,9 +24,9 @@
     }
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 715px) {
     .featured-content-item {
-        flex-basis: calc(25% + 56px);
+        flex-basis: 75%;
         border-right: 0;
     }
 }
