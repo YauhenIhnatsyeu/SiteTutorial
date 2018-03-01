@@ -29,7 +29,6 @@
 @media screen and (max-width: 1270px) {
     .social__subscribe-container {
         display: block;
-        width: 70%;
         margin: 33px auto;
     }
 

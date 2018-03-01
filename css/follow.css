@@ -1,16 +1,10 @@
-.follow {
+.follow__networks {
     display: flex;
 
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1270px) {
-    .follow {
-        flex-wrap: wrap;
-    }
-}
-
-.follow__network-container {
+.follow__network {
     display: flex;
 
     align-items: center;
@@ -31,4 +25,45 @@
     flex-direction: column;
 
     margin: 5px 0 0 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .follow__network {
+        display: block;
+        text-align: center;
+    }
+
+    .follow__description-container {
+        display: flex;
+        flex-direction: column;
+    
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .follow__networks {
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .follow__network {
+        display: flex;
+
+        margin-top: 30px;
+
+        align-items: center;
+    }
+
+    .follow__network:first-child {
+        margin-top: 0;
+    }
+
+    .follow__description-container {
+        margin: 5px 0 0 20px;
+    }
 }
