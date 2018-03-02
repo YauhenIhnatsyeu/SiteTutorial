@@ -13,8 +13,8 @@
 }
 
 .person__img {
-    width: 100px;
-    height: 100px;
+    width: 6.3rem;
+    height: 6.3rem;
 }
 
 .person__info-container {
@@ -33,7 +33,4 @@
     text-decoration: none;
 
     color: #e4551d;
-
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 14px;
 }
