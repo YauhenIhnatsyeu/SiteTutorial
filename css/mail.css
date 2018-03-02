@@ -24,7 +24,7 @@
 }
 
 .mail__title {
-    letter-spacing: 1px;
+    letter-spacing: 0.06rem;
 
     color: #ffffff;
 
@@ -49,18 +49,20 @@
 }
 
 .mail__input-text {
-    padding-left: 20px;
+    padding-left: 1.2rem;
 
     flex-grow: 1;
 }
 
 .mail__input-submit-container {
-    margin-left: 10px;
+    margin-left: 0.6rem;
 }
 
 .mail__input-submit {
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+
+    font-size: 1.1rem;
 }
 
 @media screen and (max-width: 715px) {

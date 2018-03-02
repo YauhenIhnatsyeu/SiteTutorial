@@ -66,5 +66,7 @@
 
 .portfolio__link {
     background: #e4551d;
-    padding: 0.6rem 1.6rem;
+    padding: 0.66rem 1.1rem;
+
+    letter-spacing: 0.08rem;
 }
