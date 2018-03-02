@@ -1,5 +1,5 @@
 .nav__item {
-    margin-right: 3.1rem;
+    margin-right: 3.3rem;
 }
 
 .nav__item:last-child {
@@ -22,7 +22,7 @@
     color: #637f83;
 
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 900;
 
     align-items: center;
