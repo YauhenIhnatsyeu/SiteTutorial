@@ -3,13 +3,7 @@
 
     align-items: center;
 
-    flex-basis: 47%;
-}
-
-@media screen and (max-width: 1270px) {
-    .person {
-        /* flex-basis: 80%; */
-    }
+    flex-basis: 49%;
 }
 
 .person__img {
@@ -18,15 +12,15 @@
 }
 
 .person__info-container {
-    margin-left: 30px;
+    margin-left: 1.9rem;
 }
 
 .person__description-container {
-    padding-top: 6px;
+    padding-top: 0.7rem;
 }
 
 .person__description {
-    line-height: 1.9;
+    line-height: 1.85;
 }
 
 .person__link {
