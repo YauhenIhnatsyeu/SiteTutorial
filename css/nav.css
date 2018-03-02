@@ -1,5 +1,5 @@
 .nav__item {
-    margin-right: 43px;
+    margin-right: 3.1rem;
 }
 
 .nav__item:last-child {
@@ -18,7 +18,6 @@
 
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1px;
 
     color: #637f83;
 
