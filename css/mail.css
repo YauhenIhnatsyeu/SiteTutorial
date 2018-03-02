@@ -8,7 +8,7 @@
 .mail__header {
     display: flex;
 
-    padding-bottom: 25px;
+    padding-bottom: 1.5rem;
 
     align-items: center;
 }
@@ -20,10 +20,7 @@
 }
 
 .mail__info-container {
-    display: flex;
-    flex-direction: column;
-
-    margin-left: 20px;
+    margin: 0.2rem 0 0 1.3rem;
 }
 
 .mail__title {
@@ -35,12 +32,11 @@
 }
 
 .mail__description-container {
-    margin-top: 2px;
+    margin-top: 0.15rem;
 }
 
 .mail__description {
     color: #ffffff;
-    line-height: 1;
 }
 
 .mail__form {
@@ -63,8 +59,8 @@
 }
 
 .mail__input-submit {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
 }
 
 @media screen and (max-width: 715px) {
