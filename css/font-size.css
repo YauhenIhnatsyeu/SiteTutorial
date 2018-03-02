@@ -8,10 +8,10 @@ html {
         font-size: 11px;
     }
     
-    .banner__title-container,
+    /* .banner__title-container,
     .banner__description-container {
         width: 80%;
-    }
+    } */
 }
 
 /* Smartphones (landscape) ----------- */
@@ -20,10 +20,10 @@ html {
         font-size: 11px;
     }
     
-    .banner__title-container,
+    /* .banner__title-container,
     .banner__description-container {
         width: 80%;
-    }
+    } */
 }
 
 /* Smartphones (portrait) ----------- */
@@ -32,10 +32,10 @@ html {
         font-size: 8px;
     }
     
-    .banner__title-container,
+    /* .banner__title-container,
     .banner__description-container {
         width: 80%;
-    }
+    } */
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -44,10 +44,10 @@ html {
         font-size: 14px;
     }
     
-    .banner__title-container,
+    /* .banner__title-container,
     .banner__description-container {
         width: 65%;
-    }
+    } */
 }
 
 /* iPads (landscape) ----------- */
@@ -75,10 +75,10 @@ iPad 3
         font-size: 14px;
     }
     
-    .banner__title-container,
+    /* .banner__title-container,
     .banner__description-container {
         width: 65%;
-    }
+    } */
 }
 
 /* Desktops and laptops ----------- */

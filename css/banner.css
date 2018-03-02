@@ -15,7 +15,7 @@
 }
 
 .banner__title-container {
-    width: 475px;
+    width: 80%;
 }
 
 .banner__title {
@@ -26,7 +26,6 @@
     color: #ffffff;
 
     font-family: "PT Sans", sans-serif;
-    /*font-size: 37px;*/
     font-size: 2.3rem;
     font-weight: bold;
 
@@ -34,7 +33,7 @@
 }
 
 .banner__description-container {
-    width: 400px;
+    width: 80%;
 
     margin-top: 25px;
 }
@@ -47,7 +46,6 @@
     color: #ffffff;
 
     font-family: "Lato", sans-serif;
-    /* font-size: 16px; */
     font-size: 0.95rem;
 }
 
@@ -56,7 +54,7 @@
 
     width: 4.4rem;
     height: 4.4rem;
-    margin-top: 35px;
+    margin-top: 2.3rem;
 
     border-radius: 50%;
     background: #e4551d;
@@ -73,7 +71,7 @@
     font-size: 2rem;
 }
 
-@media only screen and (min-width: 1275px) {
+@media only screen and (min-width: 770px) {
     .banner__title-container {
         width: 475px;
     }
