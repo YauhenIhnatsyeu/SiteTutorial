@@ -6,7 +6,7 @@
 
     text-align: center;
 
-    background: url("../images/wall.jpg");
+    background: url("../images/wall.jpg") no-repeat;
     background-position: center, -1.2rem;
 
     align-items: center;

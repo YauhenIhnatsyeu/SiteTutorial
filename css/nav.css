@@ -53,14 +53,36 @@
     display: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1050px) {
+    .nav {
+        position: relative;
+    }
+
     .nav__menu-toggle {
         display: block;
 
-        margin-top: 1.4rem;
+        margin: 1.4rem 1rem 0 0;
+    }
+
+    .nav__list {
+        display: block;
+
+        position: absolute;
+
+        top: 1.5rem;
+        left: -1.5rem;
+
+        background: #f9f9f9;
+
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
     .nav__item {
+        margin-right: 0;
+        padding: 1rem;
+    }
+
+    .nav__link_state_current::before {
         display: none;
     }
 }
