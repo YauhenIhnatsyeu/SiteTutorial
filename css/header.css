@@ -11,9 +11,3 @@
 .header__logo-container {
     margin-top: 0.95rem;
 }
-
-@media (max-width: 1270px) {
-    .header__navigation-container {
-        display: none;
-    }
-}
