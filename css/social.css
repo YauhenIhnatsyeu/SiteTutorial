@@ -26,7 +26,7 @@
     background: #597275;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1224px) {
     .social__subscribe-container {
         display: block;
         margin: 33px auto;
