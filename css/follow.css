@@ -1,4 +1,4 @@
-.follow__networks {
+.follow {
     display: flex;
 
     justify-content: space-between;
@@ -16,15 +16,16 @@
     font-size: 4.5rem;
 }
 
+.follow__description-container {
+    margin: 0.4rem 0 0 1.1rem;
+}
+
 .follow__title {
     font-size: 1.2rem;
 }
 
-.follow__description-container {
-    display: flex;
-    flex-direction: column;
-
-    margin: 0.4rem 0 0 1.1rem;
+.follow__description {
+    display: block;
 }
 
 @media screen and (max-width: 1050px) {
@@ -34,18 +35,13 @@
     }
 
     .follow__description-container {
-        display: flex;
-        flex-direction: column;
-    
-        margin-top: 10px;
+        margin-top: 0.8rem;
         margin-left: 0;
     }
 }
 
-@media screen and (max-width: 720px) {
-    .follow__networks {
-        display: flex;
-
+@media screen and (max-width: 630px) {
+    .follow {
         flex-direction: column;
 
         align-items: center;
@@ -54,9 +50,7 @@
     .follow__network {
         display: flex;
 
-        margin-top: 30px;
-
-        align-items: center;
+        margin-top: 1.75rem;
     }
 
     .follow__network:first-child {
@@ -64,6 +58,6 @@
     }
 
     .follow__description-container {
-        margin: 5px 0 0 20px;
+        margin: 0.4rem 0 0 1.1rem;
     }
 }

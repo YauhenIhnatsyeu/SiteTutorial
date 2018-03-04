@@ -34,13 +34,11 @@
 
 @media screen and (max-width: 1224px) {
     .portfolio__folios {
-        margin: 0 -15px;
-
         justify-content: center;
     }
 
     .portfolio__img {
-        margin: 0 15px;
+        margin: 0 1rem;
     }
     
     .portfolio__img:last-child {

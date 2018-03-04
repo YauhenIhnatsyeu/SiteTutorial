@@ -65,7 +65,7 @@
     font-size: 1.1rem;
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 550px) {
     .mail__form {
         display: block;
     }
@@ -78,7 +78,7 @@
 
     .mail__input-submit-container {
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 0.8rem;
     }
 
     .mail__input-submit {
@@ -86,7 +86,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
     .mail__header {
         display: block;
 
@@ -94,7 +94,7 @@
     }
     
     .mail__info-container {
-        margin-top: 5px;
+        margin-top: 0.4rem;
         margin-left: 0;
     }
 }
