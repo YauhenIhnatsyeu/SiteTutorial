@@ -69,7 +69,7 @@
     font-size: 2rem;
 }
 
-@media only screen and (min-width: 770px) {
+@media screen and (min-width: 770px) {
     .banner__title-container {
         width: 475px;
     }
