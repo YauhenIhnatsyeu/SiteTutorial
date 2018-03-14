@@ -1,12 +1,16 @@
 .people__inner-container {
     display: flex;
-
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
 }
 
 .people__person {
-    width: 570px;
-    margin-bottom: 25px;
+    margin-bottom: 1.15rem;
+}
+
+@media screen and (max-width: 1224px) {
+    .people__inner-container {
+        display: block;
+    }
 }

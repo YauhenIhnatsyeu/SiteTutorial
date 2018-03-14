@@ -1,5 +1,5 @@
 .nav__item {
-    margin-right: 47px;
+    margin-right: 3.3rem;
 }
 
 .nav__item:last-child {
@@ -18,12 +18,11 @@
 
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1px;
 
     color: #637f83;
 
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 15px;
+    font-size: 0.95rem;
     font-weight: 900;
 
     align-items: center;
@@ -36,11 +35,52 @@
 .nav__link_state_current::before {
     content: "\f107";
 
-    margin-bottom: 9px;
+    margin-bottom: 0.6rem;
 
     color: #637f83;
 
     font-family: "icomoon";
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: 600;
+}
+
+.nav__menu-toggle {
+    display: none;
+}
+
+@media (max-width: 1050px) {
+    .nav {
+        position: relative;
+    }
+
+    .nav__menu-toggle {
+        display: block;
+
+        margin: 1.4rem 1rem 0 0;
+
+        background: #ffffff;
+        border: 0;
+    }
+
+    .nav__list {
+        display: block;
+
+        position: absolute;
+
+        top: 1.5rem;
+        left: -1.5rem;
+
+        background: #f9f9f9;
+
+        box-shadow: 0 0.6rem 1.2rem 0 rgba(0,0,0,0.2);
+    }
+
+    .nav__item {
+        margin-right: 0;
+        padding: 1rem;
+    }
+
+    .nav__link_state_current::before {
+        display: none;
+    }
 }

@@ -3,8 +3,7 @@
 }
 
 .social__title-container {
-    padding: 44px 0 32px 0;
-
+    padding: 2.8rem 0 1.95rem;
     color: #ffffff;
 
     border-bottom: 1px solid #597275;
@@ -13,23 +12,33 @@
 .social__subscribe-container {
     display: grid;
 
-    margin: 33px 0 50px 0;
+    margin: 2.15rem 0 3.1rem;
 
     grid-template: auto / 1fr 1.05fr;
 }
 
 .social__twitter-container {
-    margin-left: 30px;
-    padding: 20px 25px 0 30px;
+    margin-left: 1.9rem;
+    padding: 1.3rem 1.2rem 0 1.8rem;
 
-    border-radius: 5px;
+    border-radius: 0.3rem;
     background: #597275;
 }
 
-.social__follow-container {
-    width: 100%;
+@media screen and (max-width: 1224px) {
+    .social__subscribe-container {
+        display: block;
+    }
 
+    .social__twitter-container {
+        margin-left: 0;
+        margin-top: 2.5rem;
+        padding-bottom: 1.3rem;
+    }
+}
+
+.social__follow-container {
     background: #ffffff;
 
-    padding: 30px 0 28px 0;
+    padding: 2rem 0;
 }

@@ -1,31 +1,30 @@
 .person {
     display: flex;
 
-    align-items: flex-start;
+    align-items: center;
+
+    flex-basis: 49%;
 }
 
 .person__img {
-    width: 100px;
-    height: 100px;
+    width: 6.3rem;
+    height: 6.3rem;
 }
 
 .person__info-container {
-    margin-left: 30px;
+    margin-left: 1.9rem;
 }
 
 .person__description-container {
-    padding-top: 6px;
+    padding-top: 0.7rem;
 }
 
 .person__description {
-    line-height: 1.9;
+    line-height: 1.85;
 }
 
 .person__link {
     text-decoration: none;
 
     color: #e4551d;
-
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 14px;
 }

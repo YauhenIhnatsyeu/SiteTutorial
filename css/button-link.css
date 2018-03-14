@@ -1,14 +1,14 @@
 .button-link {
-    padding: 8px 17px;
+    padding: 0.5rem 1rem;
 
     text-decoration: none;
 
     color: #ffffff;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     background: #637f83;
 
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }

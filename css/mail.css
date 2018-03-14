@@ -8,32 +8,31 @@
 .mail__header {
     display: flex;
 
-    padding-bottom: 25px;
+    padding-bottom: 1.5rem;
+
+    align-items: center;
 }
 
 .mail__icon {
     color: #ffffff;
 
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .mail__info-container {
-    display: flex;
-    flex-direction: column;
-
-    margin: 5px 0 0 20px;
+    margin: 0.2rem 0 0 1.3rem;
 }
 
 .mail__title {
-    letter-spacing: 1px;
+    letter-spacing: 0.06rem;
 
     color: #ffffff;
 
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .mail__description-container {
-    margin-top: 2px;
+    margin-top: 0.15rem;
 }
 
 .mail__description {
@@ -50,16 +49,52 @@
 }
 
 .mail__input-text {
-    padding-left: 20px;
+    padding-left: 1.2rem;
 
     flex-grow: 1;
 }
 
 .mail__input-submit-container {
-    margin-left: 10px;
+    margin-left: 0.6rem;
 }
 
 .mail__input-submit {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 550px) {
+    .mail__form {
+        display: block;
+    }
+
+    .mail__input-text {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+    .mail__input-submit-container {
+        margin-left: 0;
+        margin-top: 0.8rem;
+    }
+
+    .mail__input-submit {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mail__header {
+        display: block;
+
+        text-align: center;
+    }
+    
+    .mail__info-container {
+        margin-top: 0.4rem;
+        margin-left: 0;
+    }
 }

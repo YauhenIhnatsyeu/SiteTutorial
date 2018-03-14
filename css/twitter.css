@@ -1,15 +1,17 @@
 .twitter {
     display: flex;
+
+    align-items: center;
 }
 
 .twitter__icon {
     color: #ffffff;
 
-    font-size: 64px;
+    font-size: 4rem;
 }
 
 .twitter__description-container {
-    margin-left: 25px;
+    margin-left: 1.75rem;
 }
 
 .twitter__description {
@@ -18,4 +20,17 @@
 
 .twitter__link {
     color: #ffffff;
+}
+
+@media screen and (max-width: 400px) {
+    .twitter {
+        display: block;
+
+        text-align: center;
+    }
+    
+    .twitter__description-container {
+        margin-left: 0;
+        margin-top: 0.4rem;
+    }
 }

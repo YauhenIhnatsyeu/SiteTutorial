@@ -2,58 +2,57 @@
     display: flex;
     flex-direction: column;
 
-    padding: 110px 0 129px 0;
+    padding: 7rem 0 7.9rem;
 
     text-align: center;
 
-    background: url("../images/wall.jpg");
-    background-position-x: center;
-    background-position-y: -20px;
+    background: url("../images/wall.jpg") no-repeat;
+    background-position: center, -1.2rem;
 
     align-items: center;
-    justify-content: flex-start;
 }
 
 .banner__title-container {
-    width: 475px;
+    width: 80%;
 }
 
 .banner__title {
     text-decoration: underline;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     line-height: 1.4;
 
     color: #ffffff;
 
     font-family: "PT Sans", sans-serif;
-    font-size: 37px;
+    font-size: 2.3rem;
     font-weight: bold;
 
     text-underline-position: under;
 }
 
 .banner__description-container {
-    width: 400px;
-
-    margin-top: 25px;
+    width: 80%;
+    
+    margin-top: 1.7rem;
 }
 
-.banner__description {letter-spacing: 3px;
-    line-height: 1.6;
+.banner__description {
+    letter-spacing: 0.2rem;
+    line-height: 1.7;
     text-transform: uppercase;
 
     color: #ffffff;
 
     font-family: "Lato", sans-serif;
-    font-size: 16px;
+    font-size: 0.95rem;
 }
 
 .banner__circle {
     position: relative;
 
-    width: 70px;
-    height: 70px;
-    margin-top: 35px;
+    width: 4.4rem;
+    height: 4.4rem;
+    margin-top: 2.3rem;
 
     border-radius: 50%;
     background: #e4551d;
@@ -67,5 +66,14 @@
 
     color: #ffffff;
 
-    font-size: 32px;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 770px) {
+    .banner__title-container {
+        width: 475px;
+    }
+    .banner__description-container {
+        width: 350px;
+    }
 }
