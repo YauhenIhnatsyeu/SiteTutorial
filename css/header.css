@@ -1,9 +1,9 @@
 .header__inner-container {
     display: flex;
 
-    padding: 0.8rem 0 1.8rem 0;
+    padding: 0.8rem 0 1.8rem;
 
-    background: #ffffff;
+    background: #209030;
 
     justify-content: space-between;
 }
